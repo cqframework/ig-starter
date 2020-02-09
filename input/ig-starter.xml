@@ -2,6 +2,7 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../input-cache/schemas-r5/fhir-single.xsd">
   <id value="cqf.fhir.igstarter" />
   <url value="http://hl7.org/fhir/cqf/igstarter/ImplementationGuide/cqf.fhir.igstarter" />
+  <version value="0.1.0" />
   <name value="CQFIGStarter" />
   <title value="IG Starting Point" />
   <status value="draft" />
@@ -40,6 +41,42 @@
     <parameter>
       <code value="find-other-resources" />
       <value value="true" />
+    </parameter>
+    <parameter>
+      <code value="path-pages" />
+      <value value="input/pagecontent"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource" />
+      <value value="input/resources/activitydefinition"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource" />
+      <value value="input/resources/capabilitystatement"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource" />
+      <value value="input/resources/library"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource" />
+      <value value="input/resources/measure"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource" />
+      <value value="input/resources/plandefinition"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource" />
+      <value value="input/resources/questionnaire"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource" />
+      <value value="input/vocabulary/codesystem"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource" />
+      <value value="input/vocabulary/valueset"/>
     </parameter>
     <!-- Uncomment one or more of these if you want to limit which syntaxes are supported or want to disable the display of mappings
      <parameter>
