@@ -42,6 +42,7 @@
       <code value="find-other-resources" />
       <value value="true" />
     </parameter>
+
     <parameter>
       <code value="path-pages" />
       <value value="input/pagecontent"/>
@@ -69,6 +70,10 @@
     <parameter>
       <code value="path-resource" />
       <value value="input/resources/questionnaire"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource" />
+      <value value="input/tests"/>
     </parameter>
     <parameter>
       <code value="path-resource" />
