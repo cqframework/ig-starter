@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ImplementationGuide xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../input-cache/schemas-r5/fhir-single.xsd">
-  <id value="cqf.fhir.igstarter" />
-  <url value="http://hl7.org/fhir/cqf/igstarter/ImplementationGuide/cqf.fhir.igstarter" />
+  <id value="cqf.fhir.asthma-cds" />
+  <url value="http://fhir.org/guides/cqf/asthma-cds/ImplementationGuide/cqf.fhir.asthma-cds" />
   <version value="0.1.0" />
-  <name value="CQFIGStarter" />
-  <title value="IG Starting Point" />
+  <name value="AsthmaCDS" />
+  <title value="NHLBI Update on Selected Topics in Asthma Management: Recommendation #12 Pilot" />
   <status value="draft" />
-  <experimental value="false" />
+  <experimental value="true" />
   <publisher value="CQF" />
-  <description value="This is a test." />
+  <description value="This implementation guide is a pilot effort of the Informatics Stream of the CDC's Adapting Clinical Guidelines to the Digital Age initiative. The pilot has selected a specific, narrowly focused updated recommendation from the NHLBI's Asthma Guidelines as a focus for expression as shareable, computable artifacts." />
   <jurisdiction>
     <coding>
       <system value="http://unstats.un.org/unsd/methods/m49/m49.htm" />
       <code value="001" />
     </coding>
   </jurisdiction>
-  <packageId value="cqf.fhir.igstart" />
+  <packageId value="cqf.fhir.asthma-cds" />
+  <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1" />
   <definition>
     <page>
