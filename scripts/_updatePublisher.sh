@@ -31,19 +31,19 @@ else
 	fi
 fi
 
-if $upgrade ; then
-	message="Overwrite $jarlocation? [Y/N] "
-else
-	#echo Will place publisher jar here: $input_cache_path$publisher_jar
-	echo Will place publisher jar here: $jarlocation
-	message="Ok? [Y/N]"
-fi
-
-read -r -p "$message" response
-if [[ "$response" =~ ^([yY])$ ]]; then
+# if $upgrade ; then
+# 	message="Overwrite $jarlocation? [Y/N] "
+# else
+# 	#echo Will place publisher jar here: $input_cache_path$publisher_jar
+# 	echo Will place publisher jar here: $jarlocation
+# 	message="Ok? [Y/N]"
+# fi
+#
+# read -r -p "$message" response
+# if [[ "$response" =~ ^([yY])$ ]]; then
 	echo "Downloading most recent publisher to $jarlocationname - it's ~100 MB, so this may take a bit"
 #	wget "https://fhir.github.io/latest-ig-publisher/org.hl7.fhir.publisher.jar" -O "$jarlocation"
 	curl $dlurl -o "$jarlocation" --create-dirs
-else
-	echo cancel...
-fi
+# else
+# 	echo cancel...
+# fi
